@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--This code ensure to all user screen compatible & can able to pinch of zoom in or zoom out-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Aling Nena Grocery Store in Muntinlupa offers fresh produce, snacks, and household essentials with fast local delivery and easy GCash payments."> <!--SEO Title tag-->
+    <title>Aling Nena Grocery Store</title> <!--Title tab-->
+    <link rel="icon" type="image/x-icon" href="images/icon_images/hiro_ico.jfif">  <!--Title Icon-->
+    <link rel="stylesheet" href="style.css">  <!--Style CSS link-->
+
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+
+    <!--Navigation bar - Menu bar-->
+    <header class="header"> <!--header start-->
+    <nav class="navbar">
+    <a href="index.html" class="logo"><i class="fas fa-shopping-basket"></i> Aling Nena Store </a> <!--Logo & title - menu bar-->
+    
+    <ul class="nav-links">  <!--Menu bar links starts-->
+        <li class="dropdown"> <!--Sub menu home page bar starts-->
+            <a href="index.html">Home ▾</a>  <!--Home page link-->
+            <ul class="submenu">
+                <li><a href="shop_now.html">Shop Now!</a></li>
+                <li><a href="#features">Our features</a></li>
+                <li><a href="#product">Our products</a></li>
+                <li><a href="#product_cat">Product categories</a></li>
+                <li><a href="#review">Customer reviews</a></li>
+                <li><a href="#footer">More</a></li>
+            </ul> <!--Sub menu home page bar ends-->
+
+        <li><a href="about.html">About</a></li> <!--About page Link-->
+        <li class="dropdown">   <!--Products page sub menu bar starts-->
+            <a href="#product">Products ▾</a> <!--Products page / submenu link-->
+            <ul class="submenu">
+                <li><a href="#drinks">Beverages</a></li>
+                <li><a href="#snack">Snack & Chichirya</a></li>
+                <li><a href="#homeap">Home Appliances</a></li>
+                <li><a href="#canned">Delata & Canned foods</a></li>
+                <li><a href="#kitchenwa">Kitchenware</a></li>
+                <li><a href="#footer">More</a></li>
+            </ul>
+        </li> <!--Products page sub menu bar ends-->
+        <li><a href="services.html">Services</a></li>  <!--Service page link-->
+        <li><a href="contacts.html">Contacts</a></li>  <!--Contacts page link-->
+    </ul> <!--Menu bar ends-->
+    
+    <!--Search bar, shopping cart & login menu button-->
+    <div class="icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-user" id="login-btn"></div>
+    </div>
+
+    <!--Search bar container slider-->
+    <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+    <!--Shopping cart container slider-->
+    <div class="shopping-cart">
+        <div class="Total">Total : 100pesos/-</div>
+        <a href="#" class="btn">Checkout</a>
+    </div>
+    <!--Login Form container slider-->
+    <form action="" method="POST"class="login-form">
+        <h3>login now</h3>
+        <input type="email" placeholder="Your Email" class="box">
+        <input type="password" placeholder="Your Password" class="box">
+        <input type="submit" value="login now" class="btn">
+    </form>
+</nav>
+</header> <!--header ends-->
+
+<!--Banner Section info starts-->
+<section class="home" id="home">
+    <div class="banner">
+        <img src="images/banner_image/hirono_en.jpg" alt="banner">
+        
+        <div class="content"> <!--Banner text inside-->
+            <h3>Aling Nena <span>Grocery Store</span></h3>
+            <p>Explore now in Aling Nena Grocery Store. Quality products at the best & low prices.</p>
+            <a href="shop_now.html" class="btn-shop">Shop Now</a> <!--Banner shop now button-->
+        </div>
+    </div>
+</section>
+<!--Banner Section info ends-->
+
+<!--Our Features info starts-->
+    <section class="features" id="features">
+        <div class="features-heading">
+        <h1>Our <span>Features</span></h1>
+        </div>
+        <div class="box-container">
+            <div class="box">
+                <img src="images/features/update.png" alt="Fresh daily restock icon">
+                <h3>Up to date items</h3>
+                <p>We take freshness seriously. At Aling Nena’s, our shelves are restocked daily with hand-picked produce and the latest household essentials,
+                     ensuring you always get the best quality for the customer.</p><br>
+                <a href="#" class="btn">read more</a>
+            </div>
+            <div class="box">
+                <img src="images/features/koguma_features_delivery.png" alt="Free shipping and Fast Delivery icon">
+                <h3>Free & fast delivery</h3>
+                <p>Get your grocery essentials delivered straight to your home with our lightning-fast service.
+                   No minimum order required for local deliveries.</p><br><br>
+                <a href="#" class="btn">read more</a>
+            </div>
+            <div class="box">
+                <img src="images/features/easy_pay.jpg" alt="Easy pay icon">
+                <h3>Easy payments</h3>
+                <p>Checkout is a breeze with our flexible payment options. We accept cash on delivery,
+                     GCash, and Maya, providing you with a secure and hassle-free way to settle your grocery bills instantly.</p><br>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+    </section>
+<!--Our Features info ends-->
+
+
+    <!--Our products info starts-->
+<section class="product" id="product">
+    <div class="product-header">
+        <h1>Our <span>Products</span></h1>
+    </div>
+
+    <div class="box-container">
+        <div class="box">
+            <img src="images/products/Drinks/cola_large.jpeg" alt="Drinks image">
+            <h3>1.5 Liters Coca-cola</h3>
+            <div class="price">5% Off</div>
+            <p>Price : 75php</p>
+            <div class="stars"><p>Rating </p>★★★★☆</div>
+            <a href="#" class="btn">Buy Now!</a>
+        </div>
+
+        <div class="box">
+            <img src="images/products/candies/max_candy_green.webp" alt="Candies image">
+            <h3>Max Candy - Green</h3>
+            <div class="price">10% Off</div>
+            <p>Price : 55php</p>
+            <div class="stars"><p>Rating </p>★★★★★</div>
+            <a href="#" class="btn">Buy Now!</a>
+        </div>
+
+        <div class="box">
+            <img src="images/products/snacks/1000002426.webp" alt="Chips image">
+            <h3>Clover Large - barbecue flavor</h3>
+            <div class="price">25% Off</div>
+            <div class="stars"><p>Rating </p>★★★★☆</div>
+            <a href="#" class="btn">Buy Now!</a>
+        </div>
+
+        <div class="box">
+            <img src="images/products/snacks/sticko.jpg" alt="Canned image">
+            <h3>Stick O</h3>
+            <div class="price">30% Off</div>
+            <p>Price : 85php</p>
+            <div class="stars"><p>Rating </p>★★★★☆</div>
+            <a href="#" class="btn">Buy Now!</a>
+        </div>
+
+        <div class="box">
+            <img src="images/products/snacks/richeese.webp" alt="kitchen image">
+            <h3>Richeese</h3>
+            <div class="price">3% Off</div>
+            <p>Price : 15php</p>
+            <div class="stars"><p>Rating </p>★★★★☆</div>
+            <a href="#" class="btn">Buy Now!</a>
+        </div>
+
+        <div class="box">
+            <img src="images/products/snacks/breadstick.webp" alt="appliances image">
+            <h3>Bread Stick</h3>
+            <div class="price">2% Off</div>
+            <p>Price : 10php</p>
+            <div class="stars"><p>Rating </p>★★★★☆</div>
+            <a href="#" class="btn">Buy Now!</a>
+        </div>
+    </div>
+</section>
+<!--Our products info ends-->
+
+<!--Categories product info starts-->
+<section class="product" id="product_cat">
+    <div class="product-header">
+        <h1>Product <span>Categories</span></h1>
+    </div>
+
+    <div class="box-container">
+        <div class="box" id="dinks">
+            <img src="images/products/Drinks/sprite_mismo.webp" alt="Drinks image">
+            <h3>Beverages - Drinks</h3>
+            <div class="price">5% Off</div>
+            <div class="stars"><p>Rating </p>★★★★☆</div>
+            <a href="#" class="btn">Buy Now!</a>
+        </div>
+
+        <div class="box">
+            <img src="images/products/candies/bubble_gum_candy.jpeg" alt="Candies image">
+            <h3>Candies</h3>
+            <div class="price">10% Off</div>
+            <div class="stars"><p>Rating </p>★★★★★</div>
+            <a href="#" class="btn">Buy Now!</a>
+        </div>
+
+        <div class="box" id="snack">
+            <img src="images/products/snacks/1000002424.webp" alt="Chips image">
+            <h3>Chips & Snack</h3>
+            <div class="price">25% Off</div>
+            <div class="stars"><p>Rating </p>★★★★☆</div>
+            <a href="#" class="btn">Buy Now!</a>
+        </div>
+
+        <div class="box" id="canned">
+            <img src="images/products/canned_food/canned.jpg" alt="Canned image">
+            <h3>Canned goods & Delata</h3>
+            <div class="price">25% Off</div>
+            <div class="stars"><p>Rating </p>★★★★☆</div>
+            <a href="#" class="btn">Buy Now!</a>
+        </div>
+
+        <div class="box" id="kitchenwa">
+            <img src="images/products/kitchenwa/kitchenware.jpg" alt="Kitchen_ware image">
+            <h3>Kitchenware</h3>
+            <div class="price">50% Off</div>
+            <div class="stars"><p>Rating </p>★★★★☆</div>
+            <a href="#" class="btn">Buy Now!</a>
+        </div>
+
+        <div class="box" id="homeap">
+            <img src="images/products/homeap/homeappliances.jfif" alt="Home_appliances image">
+            <h3>Home Appliances</h3>
+            <div class="price">70% Off</div>
+            <div class="stars"><p>Rating </p>★★★★☆</div>
+            <a href="#" class="btn">Buy Now!</a>
+        </div>
+    </div>
+</section>
+<!--categories product info ends-->
+
+<!--Customer Review starts-->
+
+     <section class="customer-review" id="review">
+    <div class="customer-header">
+        <h1>Customer <span>Reviews</span></h1>
+    </div>
+
+    <div class="review-container">
+        <div class="review-box active">
+            <img src="images/customer_review_pic/negan.jpg" alt="Customer 1">
+            <p>"The best neighborhood store in Muntinlupa! I’ve been a 'Suki' here for years because they always have my favorite snacks like Stik-O and Piattos in stock.
+                 The staff is incredibly friendly, and you can really feel the community spirit every time you walk in."</p>
+            <h3>Negan_Castillo</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+
+        <div class="review-box active">
+            <img src="images/customer_review_pic/ado.webp" alt="Customer 2">
+            <p>"I love shopping at Aling Nena’s! The shelves are always well-organized, and the products are high-quality but still at the best low prices.
+                 Their free and fast local delivery has been a lifesaver for our household essentials."</p>
+            <h3>rekki-chan</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+
+        <div class="review-box active">
+            <img src="images/customer_review_pic/linda.png" alt="Customer 3">
+            <p>"A perfect mix of a classic sari-sari store and a modern grocery. Paying via GCash is so easy and convenient, 
+                and I appreciate that they always have up-to-date items. Truly the most reliable store in the area!"</p>
+            <h3>Linda Jackson</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+
+        <div class="review-box active">
+            <img src="images/customer_review_pic/piper.webp" alt="Customer 4">
+            <p>"A perfect mix of a classic sari-sari store and a modern grocery. Paying via GCash is so easy and convenient, 
+                and I appreciate that they always have up-to-date items. Truly the most reliable store in the area!"</p>
+            <h3>Piper</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+    </div>
+</section>
+    <!--Customer review info ends-->
+
+<!--footer section info starts-->
+<footer class="footer" id="footer"> <!--Footer info starts-->
+    <div class="footer-container"> <!--Footer container info starts-->
+        <div class="footer-box"> <!--Footer branch info starts-->
+            <h3>Aling Nena Store <i class="fas fa-shopping-basket"></i></h3>
+            <p>Explore now in Aling Nena Grocery Store. Quality products at the best & low prices.</p>
+            <div class="share">
+                <a href="https://www.facebook.com/" class="fab fa-facebook-f"></a>
+                <a href="https://x.com/" class="fab fa-twitter"></a>
+                <a href="https://www.instagram.com/?hl=en" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a> 
+            </div> <!--Footer branch info ends-->
+        </div>
+
+        <div class="footer-box"> <!--Footer contact info starts-->
+            <h3>Contacts info</h3>
+            <a href="https://www.dialpad.com/features/call-from-browser/" class="links"><i class="fas fa-phone"></i> +9531425478</a>
+            <a href="https://accounts.google.com/" class="links"><i class="fas fa-envelope"></i> alingali2002@gmail.com</a>
+            <a href="https://maps.app.goo.gl/iiG33A7id6o2EuGf7" class="links"><i class="fas fa-map-marker-alt"></i> muntinlupa - 54840</a>
+        </div> <!--Footer contact info ends-->
+
+        <div class="footer-box"> <!--Footer quick links info starts-->
+            <h3>Quick links</h3>
+            <a href="index.html" class="links"><i class="fas fa-arrow-right"></i> Home</a>
+            <a href="#features" class="links"><i class="fas fa-arrow-right"></i> Features</a>
+            <a href="#product" class="links"><i class="fas fa-arrow-right"></i> Products</a>
+            <a href="services.html" class="links"><i class="fas fa-arrow-right"></i> Services</a>
+            <a href="contacts.html" class="links"><i class="fas fa-arrow-right"></i> Contacts</a>
+        </div> <!--Footer quick link info ends-->
+
+        <div class="footer-box"> <!--Footer feedback info starts-->
+            <h3>Feedback</h3>
+            <p>Feel free to give us feedback.</p>
+            <input type="email" placeholder="How can we help you?" class="email">
+            <input type="submit" value="Submit" class="btn">
+        </div> <!--Footer feedback ends-->
+
+        <div class="payment-container"> <!--Footer img info starts-->
+            <a href="https://www.paypal.com/" target="_blank"><img src="images/payment_images/payment_method.png" class="payment-img" alt="payment methods"></a>
+            <a href="https://gcash.com/" target="_blank"><img src="images/payment_images/gcash.png" class="payment1-img" alt="payment methods"></a>
+            <a href="https://www.maya.ph/pay-with-maya-online" target="_blank"><img src="images/payment_images/paymaya.png" class="payment1-img" alt="payment methods"></a>
+           </div> <!--Footer img info ends-->
+          </div> <!--Footer container info ends-->
+        </div> <!--Footer info ends-->
+
+        
+    <div class="credit"> Created by <span>Group 6 - Website & technologies-1</span> | all rights reserved 2026 - Philippines </div> <!--Footer credit info-->
+</footer>
+    <!--footer section info ends-->
+
+    <!-- custom javascript section starts -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.0.0/swiper-bundle.min.js"></script>
+    <script src="script.js"></script> 
+
+    <!-- custom javascript section ends -->
+
+</body>
+</html>

@@ -797,7 +797,7 @@
     align-items: flex-start;
 }
 .shop_now {
-    padding-top: 70px; /* Adjust this number based on how tall your navbar is */
+    padding-top: 80px; /* Adjust this number based on how tall your navbar is */
     min-height: 40vh;  /* Optional: keeps the footer at the bottom */
 }
 

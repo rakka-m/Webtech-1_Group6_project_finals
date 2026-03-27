@@ -32,6 +32,7 @@ Follow these steps to get the project running on your machine:
 
 ## 📁 Project Structure
 * `index.html` - The main & (home) landing page.
+* `shop_now.html` - The shopping page where the user purcahsed an item and checkout.
 * `about.html` - The about page link in menu bar.
 * `services.html` - The services page link in menu bar.
 * `contacts.html` - The contacts page link in menu bar.

@@ -44,16 +44,16 @@ Follow these steps to get the project running on your machine:
 
 ## 👥 Group 6 - Contributors
 
-* **[Emmanuel Medina]** - Leader | Lead Front-end Developer
+* **[Emmanuel Medina]** - Leader 
 
-* **[Marian Rose Arcaño]** - Member | Lead Image & Graphics Editor
+* **[Marian Rose Arcaño]** - Member
 
-* **[Kyra Marie Camus]** - Member | Assistant Front-end Developer
+* **[Kyra Marie Camus]** - Member
 
-* **[Kaycee Garing]** - Member | Web Files & Repository Organizer
+* **[Kaycee Garing]** - Member
 
-* **[Kei Santiago]** - Member | Website Content Creator
+* **[Kei Santiago]** - Member
 
-* **[Sandara Aquino]** - Member | Quality Assurance
+* **[Sandara Aquino]** - Member
 
 

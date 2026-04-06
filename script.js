@@ -1,4 +1,4 @@
-// 1. Declare all your elements once
+// All the elements in menubar buttons
 const searchForm = document.querySelector('.search-form');
 const shoppingCart = document.querySelector('.shopping-cart');
 const loginForm = document.querySelector('.login-form');
